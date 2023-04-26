@@ -10,8 +10,9 @@ body{
    
 }
 .container{
-    max-width:1000px ;
+    max-width:1100px ;
     margin: 0 auto;
+
 } 
 
 ul{
@@ -25,42 +26,130 @@ ul{
     display: flex;
     flex-direction: column;
 }
-
-div.playlist-box{
-    height: 100vh;
-    width: 75%;
-    background-color: aqua;
+.color-white{
+    color: white;
 }
-div.left-navBar{
-    height: 100vh;
-    width: 25%;
-    background-color:blue
+.color-lightgray{
+    color: lightgray;
+
 }
 
+.bg-black{
+    background-color: #080b12;;
+}
 
 .nav-bar{
-    height:15%;
-    background-color: rgb(223, 23, 23);
+    height: 10vh;
+    text-align: right;
 }
- div.playlist-main{
-    height: 85%;
-    background-color: brown;
+
+.upgrade-button{
+ width: 170px;
+ height: 40px;
+ font-size: 9px;
+ border-radius: 25px;
+ margin-top: 17px;
+ margin-right: 2px;
+}
+
+ul.main-menu{
+    justify-content: center;
+    font-size: 9px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.margin-right{
+    margin-right: 10px;
+}
+
+.text{
+    font-size: 18px;
+     padding:0 0 1rem .5rem;
+}
+
+
+div.main-box{
+    width: 100%;
+    background-color: black;
+}
+
+div.lateral-side{
+    width: 20%;
+    background-color: #2a5ac9;
+   
+}
+
+ div.playlist-box{
+    width: 80%;
  }
 
- div.main-navBar{
-    height: 10%;
-    background-color: blueviolet;
+ .playlist-main{
+    background-color: #141922;
+ }
+ 
+ .img1, .img2, .img3{
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
  }
 
- .playlist{
-    height: 75%;
-    background-color: rgb(195, 195, 20);
-
+ .circle-form{
+    border-radius: 50%;
  }
+ 
+ div.recently-played{
+   width: 100%;
+   display: flex;
+ }
+
+ div.card-song{
+    width: calc((100% / 6) - 1rem);
+    margin: .5rem;
+ }
+
+ .suggestion-card{
+    width: 33%;
+}
+
+.card, .card1{
+    width: calc((100% / 2) - 1rem);
+    margin: .5rem;
+}
+
+.title-song{
+    font-size: 11px;
+    text-align: center;
+    padding-top: .5rem;
+    padding-bottom: .2rem;
+}
+
+.subtittle-song{
+    font-size: 8px;
+    text-align: center;
+}
+
+.preference, .most-famous{
+    font-size:18px ;
+    padding:1.5rem 0 .3rem .5rem;
+}
+
+.suggestions-text{
+    font-size: 9px;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+}
+
+
+ 
+
+
+
+
 
  div.footer-nav{
     width: 100%;
     height: 70px;
-    background-color: black;
+    background-color:#282828;
 }
 
