@@ -6,9 +6,6 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-   
-
-   
 }
 .container{
     max-width:1200px ;
@@ -73,7 +70,7 @@ h4.user-name{
 
 .small-rule{
     border: 1px solid rgb(174, 169, 169);
-    width: 200px;
+    width: 85%;
     margin-top: .7rem;
 }
 ul.profile{
@@ -104,6 +101,7 @@ li.text{
 }
 
 div.left-navBar{
+    width: 200px;
     height: 100%;
     justify-content: space-between;
 }
@@ -126,10 +124,11 @@ div.left-navBar{
 }
 
 ul.main-menu{
+    height: 40px;
     justify-content: center;
     font-size: 10px;
     padding-top: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 5rem;
 }
 
 .margin-right{
@@ -137,9 +136,9 @@ ul.main-menu{
 }
 
 
-.text{
-    font-size: 18px;
-     padding:0 0 1rem 1.3rem;
+.addPlaylist-text{
+    font-size: 14px;
+     padding:.7rem 0 1rem 1.5rem;
 }
 
 
@@ -149,13 +148,13 @@ div.main-box{
 }
 
 div.lateral-side{
-    width: 20%;
+    width: 20vw;
     background-color: #080b12;
    
 }
 
  div.playlist-box{
-    width: 80%;
+    width: 80vw;
     
  }
 
@@ -220,7 +219,7 @@ div.lateral-side{
     text-align: center;
 }
 
-.preference, .most-famous{
+.recentlyPlayed-text, .preference, .most-famous{
     font-size:18px ;
     padding:1.5rem 0 .3rem .5rem;
 }
@@ -232,14 +231,137 @@ div.lateral-side{
 }
 
 
+div.footer-nav{
+    width: 100%;
+     height: 100px;
+     background-color:#282828;
+     justify-content: space-between;
+     
+ }
+ 
+ .left-side{
+     width: 30%;
+ }
+
+ .small-logo{
+    display:none
+ }
+ 
+ .music-tittle {
+     font-size: 12px;
+     padding-left: .5rem;
+ }
+ .name-song {
+     font-size: 9px;
+     padding-left: .5rem;
+ }
+ 
+ .img-tittleSong {
+     align-items: center;
+     padding: 1.5rem .7rem 0 .7rem ;
+ }
+ 
+ .like-folder {
+     margin-left: 1.4rem;
+     padding-top: 2rem;
+ }
+ 
+ .central-side{
+     padding-top:1rem ;
+ }
+ 
+ div.evolution-time{
+     width: 55%;
+     height: 3px;
+     border: 1px solid #5a5a5a;
+     background-color: #5a5a5a;
+     border-radius:30%;
+     
+ }
+ 
+ .time{
+     width: 20%;
+     height: 3px;
+     border: 1px solid white;
+     background-color: white;
+     border-radius:30%;
+     
+ }
+ .time-line {
+     font-size: 10px;
+ 
+ }
+ .time-line-left {
+   margin-right: .5rem;
+ }
+ .time-line-right{
+     margin-left: .5rem;
+ }
+ 
+ div.central-part{
+    width: 40%;
+     padding-top: .5rem;
+ 
+ }
+ 
+ .time-bar{
+     height: 20px;
+ padding-top: 2rem;
+ 
+ }
+ 
+ .icon-serie{
+    width: 55%;
+     height: 30px;
+ margin-left: 1rem;
+ padding-top: 1rem;
+ }
+ 
+ .shuffle-icon, .backward-icon, .forward-icon, .icon-rotate{
+     font-size: 100%;
+     padding-top: .5rem;
+ }
+ 
+ .icon-circleplay{
+     font-size: 200%;
+     padding-bottom: 1rem;
+ }
+ 
+ .centralside-padding{
+     padding-right: 65px;
+ }
+ 
+ .right-side{
+     width: 20%;
+     align-items: center;
+     justify-content: space-around;
+ }
+ .vol-1{
+     width: 30%;
+     height: 3px;
+     border: 1px solid #5a5a5a;
+     background-color: #5a5a5a;
+     border-radius:30%;
+     margin-right: 1rem;
+ }
+ .vol-2{
+     width: 15%;
+     height: 3px;
+     border: 1px solid white;
+     background-color: white;
+     border-radius:30%;
+ }
+ .rightside-margin{
+     margin-right: 8% ;
+ }
+ 
+
+
 
 /************************************************
       Start breakpoint medium of Playlist-box section
  ************************************************/
 @media screen and (max-width: 992px) {
-    .container{
-        width: 70%;
-    }
 
     div.recently-played{
         flex-wrap: wrap;
@@ -260,20 +382,63 @@ div.lateral-side{
      }
 
      ul.main-menu{
-        width: 90%;
         font-size: 12px;
-        flex-wrap: wrap;
-        padding: 1rem 1rem 0 1rem;
+       flex-wrap: wrap;
+       height:110px ;
+     }
+     .margin-right{
+        margin-right:30px ;
+     }
+     .padding-bottom{
+        padding-bottom: 2rem;
      }
 
-     .margin-right{
-        margin-right: 30px;
+    .margin-right1 {
+        margin-right: .3rem;
     }
 
-    .padding-top{
-        padding-top: 1.5rem;
+    ul.install-app {
+        margin-top: 1rem;
     }
 
+    .like-folder {
+        margin-left: .5rem;
+        display: flex;
+        
+    }
+
+    .small-rule{
+        width: 60%;
+    }
+
+    .music-tittle {
+        font-size: 10px;
+        padding-left: .5rem;
+    }
+    .name-song {
+       
+        font-size: 6px;
+        padding-left: .5rem;
+    }
+
+    .like-icon, .folder-icon{
+        font-size: 12px;
+    }
+
+    .like-icon{
+        padding-right: .5rem;
+    }
+    .centralside-margin{
+        padding-right: 2.5rem;
+    }
+
+    div.lateral-side{
+        width: 3vh;
+    }
+    
+    
+
+    
 }
 
 /************************************************
@@ -283,58 +448,87 @@ div.lateral-side{
     Start breakpoint small of Playlist-box section
  ************************************************/
  @media screen and (max-width: 786px) {
-    .container{
-        width: 70%;
-    }
-
 
     .img1, .img2, .img3{
-        width: 80%;
-        height: 80%;
-       padding-left: 1rem;
-       margin: 0 2rem 0 2rem;
+        width: 100%;
+        height: 100%;
+       margin: 0 0 0 0rem;
      }
 
 
      div.card-song{
         width: calc((100% / 2) - 2rem);
-        padding: 0;
-        margin: 1rem .5rem 1rem .5rem;
+        margin: 1rem;
+        padding: .5rem .5rem 1rem .5rem;
      }
+
+    .suggestion-card{
+        width: 100%;
+       }
+
+     .card, .card1{
+        width: calc((100% / 2) - 3rem);
+        margin: 1.5rem;
+    }
 
      .subtitle-strange{
         width: 80%;
         padding-left: 6rem;
      }
 
-     .text, .preference, .most-famous, .suggestions-text{
-        padding-left: 3.5rem;
-     }
-     
-
-
-     ul.main-menu{
-        align-items: center;
+     .recentlyPlayed-text, .preference, .most-famous{
+        padding:1.5rem 0 .3rem 1.5rem;
+    }
+    
+    .suggestions-text{
         font-size: 10px;
-        line-height: 40px;
+        padding-bottom: .5rem;
+        padding-left: 1.5rem;
+    }
+     ul.main-menu{
+        font-size: 11px;
+        padding-left: 2rem;
      }
 
+     .padding{
+        padding-bottom:2rem ;
+     }
 
      .margin-right{
-        margin-right: 2rem;
+        margin-right: 4rem;
+
     }
 
-      .padding-top{
-        padding-top: 0;
+    .addPlaylist-text{
+        font-size: 12px;
+        padding:.6rem 0 1rem .6rem;
     }
 
-    .padding-right{
-        padding-right: 2.5rem;
+    .playlistName{
+        font-size: 9px;
+    }
+    .icon-add{
+       font-size: 30px;
+    }
+    .librery-text, .search-text{
+        font-size: 11px;
     }
 
-    .suggestion-card{
-        width: 100%;
-       }
+    .spotify-logo{
+        width: 100px;
+    }
+
+    .small-rule{
+        width: 50%;
+    }
+    
+    h4.user-name{
+      padding: .3rem 0 .2rem .3rem;
+      font-size: 11px;
+    }
+    
+
+    
 
 }
 
@@ -346,24 +540,22 @@ div.lateral-side{
    start breakpoint xsmall of Playlist-box section
  ************************************************/
  @media screen and (max-width: 576px) {
-    .container{
-        width: 70%;
-    }
-
-
-    .img1, .img2, .img3{
-        width: 100%;
-        height: 100%;
-       padding-left: .3rem;
-       margin-left: .3rem;
-     }
 
       div.card-song{
          width: calc((100% / 2) - .2rem);
          margin: .1rem;
-         padding: 1rem 0 1rem 0;
+         padding: 1rem 0 1rem 1.2rem;
          
       }
+
+    .suggestion-card{
+        width: 103%;
+       }
+
+     .card, .card1{
+        width: calc((100% / 2) - 1.4rem);
+        margin: .7rem;
+    }
 
       .playlist-main{
         padding-right: 25px;
@@ -391,7 +583,43 @@ div.lateral-side{
         padding-left: 1rem;
      }
 
-    }
+     .spotify-logo, .home-text, .search-text, .librery-text, .add-playlist, .playlistName, .create-playlist, .installaApp-text, .user-name, .small-rule{
+        display: none;
+     }
+
+     .small-logo{
+        display: block;
+        width: 30px;
+        padding: 1rem 0 1rem 0;
+     }
+
+     .icon-serie{
+            width: 20%;
+             height: 30px;
+         margin-left: 1rem;
+         padding-top: 1rem;
+         }
+
+         .centralside-padding{
+            padding-right: 1.8rem;
+         }
+
+         .rightside-margin{
+            margin-right: 1rem ;
+         }
+
+         div.central-part {
+           width: 40%;
+         }
+
+
+        .right-side{
+            width: 30%;
+        }
+
+
+     
+}
 
 
 
@@ -399,104 +627,3 @@ div.lateral-side{
     End breakpoint xsmall of Playlist-box section
  ************************************************/
  
- div.footer-nav{
-   width: 100%;
-    height: 100px;
-    background-color:#282828;
-    justify-content: space-between;
-    background-color: #282828;
-}
-.footer-img{
-    width: 40px;
-    height: 40px;
-}
-.music-tittle {
-    font-size: 12px;
-    padding-left: .5rem;
-}
-.song-name {
-    font-size: 9px;
-    padding-left: .5rem;
-}
-
-.img-tittleSong {
-    align-items: center;
-    padding: 1.5rem .7rem 0 .7rem ;
-}
-
-.like-folder {
-    margin-left: 1.4rem;
-    padding-top: 2rem;
-    
-    
-}
-
-div.evolution-time{
-    width: 250px;
-    height: 3px;
-    border: 1px solid #5a5a5a;
-    background-color: #5a5a5a;
-    border-radius:30%;
-    
-}
-
-.time{
-    width: 60px;
-    height: 3px;
-    border: 1px solid white;
-    background-color: white;
-    border-radius:30%;
-    
-}
-.time-line {
-    font-size: 10px;
-}
-.time-line-left {
-  text-align: left;
-}
-.time-line-right{
-    font-size: 10px;
-}
-
-div.central-part{
-    align-self: center;
-}
-
-.time-bar{
-margin-top: 1rem;
-justify-content: space-evenly;
-}
-
-.icon-serie{
-margin-left: 1.5rem;
-font-size: 20px;
-
-}
-
-.centralside-margin{
-    margin-right: 3rem
-}
-
-.right-side{
-    align-items: center;
-    justify-content: space-around;
-}
-.vol-1{
-    width: 100px;
-    height: 3px;
-    border: 1px solid #5a5a5a;
-    background-color: #5a5a5a;
-    border-radius:30%;
-    margin-right: 1rem;
-}
-.vol-2{
-    width: 30px;
-    height: 3px;
-    border: 1px solid white;
-    background-color: white;
-    border-radius:30%;
-}
-.rightside-margin{
-    margin-right: 17px ;
-}
-
