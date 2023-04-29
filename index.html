@@ -29,12 +29,12 @@
                         
                         <div class="Nav color-lightgray column">
                             <div class="home">
-                                <ul class="row color-white">
+                                <ul class="row color-white ">
                                     <li>
-                                        <img class="img-librery" src="img/home.svg" alt=" home">
+                                        <img class="img-librery zoom-button" src="img/home.svg" alt=" home">
                                     </li>
-                                    <li class="home-text color-white ">
-                                        <h4 class=" font-leftSide home-text" >
+                                    <li> 
+                                        <h4 class=" font-leftSide home-text color-white zoom-effect" >
                                             Home
                                         </h4>
                                     </li>
@@ -43,17 +43,17 @@
                             <div class="search ">
                                 <ul class="row">
                                     <li >
-                                        <img class="img-search color-lightgray" src="img/search.svg" alt="search">
+                                        <img class="img-search  zoom-button color-lightgray" src="img/search.svg" alt="search">
                                     </li>
-                                    <li class="search-text font-leftSide"> Cerca</li>
+                                    <li class="search-text zoom-effect font-leftSide"> Cerca</li>
                                 </ul>
                             </div>
                             <div class="librery">
                                 <ul class="row">
                                     <li>
-                                        <img class="img-librery color-lightgray color-lightgray" src="img/libreria.svg" alt="librery">
+                                        <img class="img-librery color-lightgray  zoom-button color-lightgray" src="img/libreria.svg" alt="librery">
                                     </li>
-                                    <li class="librery-text font-leftSide">
+                                    <li class="librery-text zoom-effect font-leftSide">
                                         La tua libreria
                                     </li>
                                 </ul>
@@ -64,20 +64,20 @@
                             <h5 class="color-white playlist-text"> PLAYLIST</h5>
                             <ul class="create-playlist row">
                                 <li >
-                                    <i class=" icon-add fa-solid fa-square-plus color-lightgray"></i>
+                                    <i class=" icon-add fa-solid fa-square-plus  zoom-button color-lightgray"></i>
                                 </li>
-                                <li class="addPlaylist-text color-lightgray"> Crea playlist</li>
+                                <li class="addPlaylist-text zoom-effect color-lightgray"> Crea playlist</li>
                             </ul>
                         </div>
                         <div class=" playlistName color-lightgray font-leftSide">
 
-                            <p > Nome Playlist</p>
-                            <p > Nome Playlist</p>
-                            <p > Nome Playlist</p>
-                            <p > Nome Playlist</p>
-                            <p > Nome Playlist</p>
-                            <p > Nome Playlist</p>
-                            <p > Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
+                            <p class="zoom-effect">Nome Playlist</p>
                             
                         </div>
                         
@@ -87,7 +87,7 @@
                             <li class="margin-right1  ">
                                 <img class="img-download color-white" src="img/download.svg" alt="user">
                             </li>
-                            <li class=" installaApp-text color-lightgray font-leftSide">
+                            <li class=" installaApp-text zoom-effect color-lightgray font-leftSide">
                                 <p><strong> Installa app</strong></p>
                             </li>
                         </ul>
@@ -96,7 +96,7 @@
 
                         <ul class="profile row">
                             <li class="circle">
-                                <img class="img-user color-lightgray" src="img/profile.svg" alt="user">
+                                <img class="img-user zoom-button color-lightgray" src="img/profile.svg" alt="user">
                             </li>
                             <li >
                                 <h4 class="user-name font-leftSide color-white"> John Doe</h4>
@@ -109,79 +109,159 @@
             </div>
             <div class="playlist-box column container">
                 <div class="nav-bar ">
-                    <button class="upgrade-button color-white bg-black">
+                    <button class=" zoom-button upgrade-button color-white bg-black">
                         EFFETTUA L'UPGRADE
                     </button>
                 </div>
                 <div class="playlist-main column">
-                    <div class="main-navBar">
-                        <ul class="main-menu row color-lightgray">
-                            <li class="margin-right padding-bottom   "><strong>IN EVIDENZA</strong></li>
-                            <li class="margin-right padding-bottom   "><strong>PODCAST</strong></li>
-                            <li class="margin-right padding-bottom  "><strong> CLASSIFICHE</strong></li>
-                            <li class="margin-right padding-bottom "> <strong> GENERI E MOOD</strong></li>
-                            <li class="margin-right padding-bottom  "><strong> NUOVE USCITE</strong></li>
-                            <li class="padding"><strong> SCOPRI</strong></li> 
+                    <div class="main-navBar color-lightgray">
+                        <ul class="main-menu row">
+                            <li class=" zoom-effect margin-right padding-bottom"><strong>IN EVIDENZA</strong></li>  
+                            <li class=" zoom-effect margin-right padding-bottom  "><strong>PODCAST</strong></li>
+                            <li class=" zoom-effect margin-right padding-bottom  "><strong> CLASSIFICHE</strong></li>
+                            <li class=" zoom-effect margin-right padding-bottom "> <strong> GENERI E MOOD</strong></li>
+                            <li class=" zoom-effect margin-right padding-bottom  "><strong> NUOVE USCITE</strong></li>
+                            <li class=" zoom-effect padding"><strong> SCOPRI</strong></li> 
                         </ul>
+                        
                     </div>
                     <div class="playlist column">
                         <h2 class="recentlyPlayed-text color-white"> Recently Played</h2>
                         <div class="recently-played color-white">
                             <div class="card-song">
-                                <div >
-                                    <img class="img1" src="img/metal_lifting.jpg" alt="heavy metal">
+                                <div class="hover-img">
+                                    <img class="img1" src="img/metal_lifting.jpg" alt="heavy metal" >
+                                    <div class="middle">
+                                        <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white"> Heavy Metal</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
-                                <div class="title-subtitle">
-                                    <h3 class="title-song color-white"> Heavy Metal</h3>
-                                    <p class="subtittle-song color-lightgray">Subtitle</p>
+                                <div class="no-hover-img">
+                                    <div >
+                                        <img class="img1" src="img/metal_lifting.jpg" alt="heavy metal">
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white"> Heavy Metal</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
+
                             </div>
                             <div class="card-song">
-                                <div >
-                                    <img class="img1" src="img/stranger.jpeg" alt="stranger">
+                                <div class="hover-img">
+                                    <img class="img1" src="img/stranger.jpeg" alt="stranger" >
+                                    <div class="middle">
+                                        <i class=" icon-circle Hover1 color-white fa-regular fa-circle-play "></i>
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white">Stranger Thinks, vol.
+                                            1(a Netflix Original Series Soundtrack)</h3>
+                                        <p class="subtittle-song color-lightgray">Kylie DIxon & Micheal Stein</p>
+                                    </div>
                                 </div>
-                                <div class="title-subtitle ">
-                                    <h3 class="title-song color-white subtitle-strange"> Stranger Thinks, vol.
-                                        1(a Netflix Original Series Soundtrack)
-                                    </h3>
-                                    <p class="subtittle-song subtitle-strange color-lightgray">Kylie DIxon & Micheal Stein</p>
+                                <div class="no-hover-img">
+                                    <div >
+                                        <img class="img1" src="img/stranger.jpeg" alt="stranger">
+                                        
+                                    </div>
+                                    <div class="title-subtitle ">
+                                        <h3 class="title-song color-white subtitle-strange"> Stranger Thinks, vol.
+                                            1(a Netflix Original Series Soundtrack)
+                                        </h3>
+                                        <p class="subtittle-song subtitle-strange color-lightgray">Kylie DIxon & Micheal Stein</p>
+                                    </div>
                                 </div>
+                                
                             </div>
                             <div class="card-song">
-                                <div >
-                                    <img class="img1" src="img/aquietplace.jpeg" alt="a quiet place">
+                                <div class="hover-img">
+                                    <img class="img1" src="img/aquietplace.jpeg" alt="a quiet place" >
+                                    <div class="middle">
+                                        <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white">A quiet place</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
-                                <div class="title-subtitle">
-                                    <h3 class="title-song color-white" > a quiet place</h3>
-                                    <p class="subtittle-song color-lightgray">Subtitle</p>
-                                </div>
+                                <div class="no-hover-img">
+                                    <div >
+                                        <img class="img1" src="img/aquietplace.jpeg" alt="a quiet place">
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white" > A quiet place</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
+                                </div>                             
                             </div>
                             <div class="card-song">
-                                <div >
-                                    <img class="img1" src="img/split.jpeg" alt="Split">
+                                <div class="hover-img">
+                                    <img class="img1" src="img/split.jpeg" alt="Split" >
+                                    <div class="middle">
+                                        <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white">Split</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
-                                <div class="title-subtitle">
-                                    <h3 class="title-song color-white"> Split</h3>
-                                    <p class="subtittle-song color-lightgray">Subtitle</p>
+                                <div class="no-hover-img">
+                                    <div >
+                                        <img class="img1" src="img/split.jpeg" alt="Split">
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white"> Split</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
+                                
                             </div>
                             <div class="card-song">
-                                <div>
-                                    <img class="img1" src="img/cure.jpeg" alt="a cure for wellness">
+                                <div class="hover-img">
+                                    <img class="img1" src="img/cure.jpeg" alt="A cure for wellness" >
+                                    <div class="middle">
+                                        <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white">A cure for wellness</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
-                                <div class="title-subtitle">
-                                    <h3 class="title-song color-white"> A cure for wellness</h3>
-                                    <p class="subtittle-song color-lightgray">Subtitle</p>
+                                <div class="no-hover-img">
+                                    <div>
+                                        <img class="img1" src="img/cure.jpeg" alt="a cure for wellness">
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white"> A cure for wellness</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
+                                
                             </div>
                             <div class="card-song">
-                                <div >
-                                    <img  class="img1" src="img/sinister.jpeg" alt="sinister">
+                                <div class="hover-img">
+                                    <img class="img1" src="img/sinister.jpeg" alt="sinister" >
+                                    <div class="middle">
+                                        <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white">Sinister</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
-                                <div class="title-subtitle">
-                                    <h3 class="title-song color-white"> Sinister</h3>
-                                    <p class="subtittle-song color-lightgray">Subtitle</p>
+                                <div class="no-hover-img">
+                                    <div >
+                                        <img  class="img1" src="img/sinister.jpeg" alt="sinister">
+                                    </div>
+                                    <div class="title-subtitle">
+                                        <h3 class="title-song color-white"> Sinister</h3>
+                                        <p class="subtittle-song color-lightgray">Subtitle</p>
+                                    </div>
                                 </div>
+                                
                             </div>
                         </div>
 
@@ -192,20 +272,47 @@
                             </h4>
                             <div class="suggestion-card row">
                                 <div class="card">
-                                    <div>
-                                        <img class="img2" src="img/radar.jpeg" alt="Release Radar">
+                                    <div class="hover-img">
+                                        <img class="img2" src="img/radar.jpeg" alt="Release Radar" >
+                                        <div class="middle">
+                                            <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                        </div>
+                                        <div class="title-subtitle">
+                                            <h3 class="title-song color-white">Release Radar</h3>
+                                        </div>
                                     </div>
-                                    <div class="title-subtitle">
-                                        <h3 class="title-song color-white"> Release Radar</h3>
+                                    <div class="no-hover-img">
+                                        <div class="card">
+                                            <div>
+                                                <img class="img2" src="img/radar.jpeg" alt="Release Radar">
+                                            </div>
+                                            <div class="title-subtitle">
+                                                <h3 class="title-song color-white"> Release Radar</h3>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
+                                
+                               
                                 <div class="card">
-                                    <div >
-                                        <img class="img2" src="img/mixdaily.jpeg" alt="Dally Mix 1">
+                                    <div class="hover-img">
+                                        <img class="img2" src="img/mixdaily.jpeg" alt="Dally Mix 1" >
+                                        <div class="middle">
+                                            <i class=" icon-circle Hover color-white fa-regular fa-circle-play "></i>
+                                        </div>
+                                        <div class="title-subtitle">
+                                            <h3 class="title-song color-white">Dally Mix 1</h3>
+                                        </div>
                                     </div>
-                                    <div class="title-subtitle">
-                                        <h3 class="title-song color-white">Dally Mix 1</h3>
+                                    <div class="no-hover-img">
+                                        <div >
+                                            <img class="img2" src="img/mixdaily.jpeg" alt="Dally Mix 1">
+                                        </div>
+                                        <div class="title-subtitle">
+                                            <h3 class="title-song color-white">Dally Mix 1</h3>
+                                        </div>
                                     </div>
+                                   
                                 </div>
                                 
                             </div>
@@ -217,11 +324,27 @@
                             </h4>
                             <div class="suggestion-card row">
                                 <div class="card1">
-                                    <img class="img3 circle-form"src="img/youg.jpeg" alt="Release Radar">
+                                    <div class="hover-img">
+                                        <img class="img3 border" src="img/youg.jpeg" alt="youg" >
+                                        <div class="middle">
+                                            <i class=" icon-circle Hover2 color-white fa-regular fa-circle-play "></i>
+                                        </div>
+                                    </div>
+                                    <div class="no-hover-img">
+                                        <img class="img3 " src="img/youg.jpeg" alt="youg">
+                                    </div>
+                                    
                                 </div>
-                                
                                 <div class="card1">
-                                    <img class="img3 circle-form"src="img/einaudi.jpeg" alt="Dally Mix 1">                                        
+                                    <div class="hover-img">
+                                        <img class="img3 border" src="img/einaudi.jpeg" alt="einaudi" >
+                                        <div class="middle">
+                                            <i class=" icon-circle Hover2 color-white fa-regular fa-circle-play "></i>
+                                        </div>
+                                    </div>
+                                    <div class="no-hover-img">
+                                        <img class="img3 circle-form"src="img/einaudi.jpeg" alt="einaudi">  
+                                    </div>                                
                                 </div>
                                 
                             </div>
@@ -244,8 +367,8 @@
                         <div class="img-tittleSong row">
                             <img class="footer-img" src="img/sinister.jpeg" alt="sinister-song" style="width:40px; height:40px">
                             <ul>
-                                <li class="music-tittle color-white"><strong>Sinister</strong></li>
-                                <li class="name-song color-lightgray"> Brano Nome</li>
+                                <li class="music-tittle zoom-button color-white"><strong>Sinister</strong></li>
+                                <li class="name-song  zoom-effect color-lightgray"> Brano Nome</li>
                             </ul>
                            
                         </div>
@@ -253,12 +376,12 @@
                     <div class="like-folder">
                         <ul class="like">
                             <li>
-                                <i class=" like-icon fa-regular fa-heart color-lightgray"></i>
+                                <i class=" like-icon fa-regular fa-heart  zoom-button color-lightgray"></i>
                             </li>
                         </ul>
                         <ul class="folder">
                             <li >
-                                <i class=" folder-icon fa-regular fa-folder color-lightgray"></i>
+                                <i class=" folder-icon fa-regular fa-folder zoom-button color-lightgray"></i>
                             </li>
                         </ul>
                     </div>
@@ -266,19 +389,19 @@
                 <div class="central-part margin-footer column">
                     <div class="icon-serie row">
                         <div>
-                            <i class="  color-white shuffle-icon fa-solid fa-shuffle centralside-padding "></i>
+                            <i class="  color-white shuffle-icon fa-solid fa-shuffle  zoom-button centralside-padding "></i>
                         </div>
                         <div>
-                            <i class=" backward-icon color-white fa-solid fa-backward-step centralside-padding"></i>         
+                            <i class=" backward-icon color-white fa-solid fa-backward-step  zoom-button centralside-padding"></i>         
                         </div>
                         <div>
-                            <i class=" icon-circleplay color-white fa-regular fa-circle-play centralside-padding"></i>
+                            <i class=" icon-circleplay color-white fa-regular fa-circle-play  zoom-button centralside-padding"></i>
                         </div>
                         <div>
-                            <i class=" forward-icon color-white  fa-solid fa-forward-step centralside-padding"></i>
+                            <i class=" forward-icon color-white  fa-solid fa-forward-step  zoom-button centralside-padding"></i>
                         </div>
                         <div>
-                            <i class="  icon-rotate color-white fa-solid fa-rotate-right "></i> 
+                            <i class="  icon-rotate color-white fa-solid fa-rotate-right zoom-button  "></i> 
                         </div>          
                     </div>
                     <div class="time-bar row">
@@ -287,20 +410,19 @@
                                  
                         </p>
                         <div class="evolution-time">
-                            <div class="time"></div>
+                            <div class="time hover-time"></div>
                         </div>
                         <p class="time-line-right time-line color-white">
                            <strong>4:35</strong> 
                                  
                         </p>
                     </div>
-                    
                 </div>
                 <div class="right-side row">
     
-                    <i class="  icon-bars color-white fa-solid fa-list rightside-margin"></i>                 
-                    <i class=" icon-srceen color-white fa-solid fa-display rightside-margin"></i>    
-                    <i class="  icon-volume color-white fa-solid fa-volume-high rightside-margin"></i>
+                    <i class="  icon-bars color-white fa-solid fa-list  zoom-button rightside-margin"></i>                 
+                    <i class=" icon-srceen color-white fa-solid fa-display  zoom-button rightside-margin"></i>    
+                    <i class="  icon-volume color-white fa-solid fa-volume-high  zoom-button rightside-margin"></i>
                     <div class="vol-1">
                         <div class="vol-2"></div>
                     </div>
