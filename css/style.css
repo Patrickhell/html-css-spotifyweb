@@ -137,6 +137,11 @@ div.left-navBar{
  border: 1px solid white;
 }
 
+.main-navBar{
+    justify-content: center;
+    
+}
+
 .margin-right{
     margin-right: 10px;
 }
@@ -155,12 +160,10 @@ div.main-box{
 div.lateral-side{
     width: 20vw;
     background-color: #080b12;
-   
 }
 
  div.playlist-box{
     width: 80vw;
-    
  }
 
  .img-home, .img-search, .img-librery, .logo-small, .fa-solid, .img-download{
@@ -182,12 +185,6 @@ div.lateral-side{
     background-color:#141922;
  }
  
- .img1, .img2, .img3{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
- }
-
  .circle-form{
     border-radius: 50%;
  }
@@ -206,11 +203,7 @@ hr{
     margin-left: 25px;
 }
 
-.main-navBar{
-    justify-content: center;
-}
 
- 
  div.recently-played{
    width: 100%;
    display: flex;
@@ -224,6 +217,12 @@ hr{
  .suggestion-card{
     width: 33%;
 }
+
+.img1, .img2, .img3{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
 
 .card, .card1{
     width: calc((100% / 2) - 1rem);
