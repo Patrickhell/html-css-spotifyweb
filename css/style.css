@@ -132,6 +132,14 @@ div.left-navBar{
     margin-right: 10px;
 }
 
+li.Highlighted-text{
+    text-decoration:underline;
+    text-decoration-color: greenyellow;
+    text-decoration-thickness: 5px;
+
+   
+}
+
 
 .addPlaylist-text{
     font-size: 14px;
@@ -172,7 +180,6 @@ div.lateral-side{
 
  .playlist-main{
     background-color:#141922;
-    padding-left: 0px;
  }
  
  .img1, .img2, .img3{
@@ -287,7 +294,8 @@ div.footer-nav{
      border: 1px solid #5a5a5a;
      background-color: #5a5a5a;
      border-radius:30%;
-     
+     margin-top: 5px;
+     position: relative;
  }
  
  .time{
@@ -296,15 +304,16 @@ div.footer-nav{
      border: 1px solid white;
      background-color: white;
      border-radius:30%;
-     
  }
+
  .time-line {
      font-size: 10px;
- 
  }
+
  .time-line-left {
    margin-right: .5rem;
  }
+
  .time-line-right{
      margin-left: .5rem;
  }
@@ -312,15 +321,14 @@ div.footer-nav{
  div.central-part{
     width: 40%;
      padding-top: .5rem;
- 
  }
  
  .time-bar{
      height: 20px;
  padding-top: 2rem;
- 
+ margin-left: 12px;
  }
- 
+
  .icon-serie{
     width: 55%;
      height: 30px;
@@ -354,6 +362,7 @@ div.footer-nav{
      background-color: #5a5a5a;
      border-radius:30%;
      margin-right: 1rem;
+     position: relative;
  }
  .vol-2{
      width: 30%;
@@ -491,6 +500,43 @@ div.footer-nav{
     transform: scale(1.2);
     cursor: pointer;
   }
+
+  .green-ball, .small-ball{
+    display: none;
+  }
+   
+  .green-ball, .small-ball{
+    transition: transform .3s;
+  }
+  .evolution-time:hover .green-ball{
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+    bottom: -7px;
+    left: 3rem;
+    cursor: pointer;
+  }
+
+ .vol-1:hover .small-ball {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: green;
+    position: absolute;
+   left: 1rem;
+    top: -5px;
+    cursor: pointer;
+    
+   
+  }
+
+
+
+
   
 
 
