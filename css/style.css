@@ -38,7 +38,7 @@ ul{
     background-color:#000000;
 }
 div.lateral-side{
-    padding-left: 1rem;
+    padding-left: 0rem;
 }
 
 div.Nav{
@@ -48,15 +48,25 @@ div.Nav{
 .spotify-logo{
     width: 120px;
     padding: 1rem 0 1.4rem 0;
+    margin-left: 1rem;
 }
+
+div > ul.home{
+    border-left: 3px solid greenyellow ;
+    height: 25px;
+    margin-bottom: 1rem
+}
+
+.img-home, div.search, div.librery, div.add-playlist, div.playlistName {
+    margin-left: 1rem;
+}
+
 div.add-playlist{
     padding-top: 1rem;
 }
+
 .search-text, .librery-text, .home-text {
     padding-left: 5px;
-}
-.icon-search, .icon-librery, .home-icon{
-    font-size: 20px;
 }
 
 .icon-user{
@@ -70,7 +80,6 @@ h4.user-name{
 
 .installaApp-text{
     padding: .2rem 0 0 .5rem;
-
 }
 
 .small-rule{
@@ -132,15 +141,6 @@ div.left-navBar{
     margin-right: 10px;
 }
 
-li.Highlighted-text{
-    text-decoration:underline;
-    text-decoration-color: greenyellow;
-    text-decoration-thickness: 5px;
-
-   
-}
-
-
 .addPlaylist-text{
     font-size: 14px;
      padding:.7rem 0 1rem 1.5rem;
@@ -163,7 +163,7 @@ div.lateral-side{
     
  }
 
- .img-librery, .img-search, .img-librery, .logo-small, .fa-solid, .img-download{
+ .img-home, .img-search, .img-librery, .logo-small, .fa-solid, .img-download{
     width: 20px;
  }
 
@@ -198,7 +198,12 @@ div.lateral-side{
     font-size: 10px;
     padding-top: 1rem;
     padding-bottom: 5rem;
-    
+}
+
+hr{
+    width: 30px;
+    color: greenyellow;
+    margin-left: 25px;
 }
 
 .main-navBar{
@@ -477,9 +482,9 @@ div.footer-nav{
     display: block;
     width: 20%;
     height: 3px;
-    border: 1px solid green;
-    background-color: green;
-    color: green;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
+    color: greenyellow;
     border-radius:40%;
     -ms-transform: scale(.5); 
     -webkit-transform: scale(.5); 
@@ -491,8 +496,8 @@ div.footer-nav{
     display: block;
     width: 30%;
     height: 3px;
-    border: 1px solid green;
-    background-color: green;
+    border: 1px solid greenyellow;
+    background-color: greenyellow;
     color: green;
     border-radius:40%;
     -ms-transform: scale(.5); 
@@ -513,7 +518,7 @@ div.footer-nav{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: green;
+    background-color: greenyellow;
     position: absolute;
     bottom: -7px;
     left: 3rem;
@@ -525,7 +530,7 @@ div.footer-nav{
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    background-color: green;
+    background-color: greenyellow;
     position: absolute;
    left: 1rem;
     top: -5px;
@@ -533,17 +538,6 @@ div.footer-nav{
     
    
   }
-
-
-
-
-  
-
-
-
-
-
-
 
 
 /************************************************
@@ -782,9 +776,15 @@ div.footer-nav{
     div.lateral-side{
         width: 3vh;
     }
+
+    .small-logo{
+         margin-left: 1rem;
+    }
+
+    div > ul.home{
+        border-left: none ;
+    }
     
-
-
     .subtitle-strange{
         width: 100%;
         padding-left: 0;
